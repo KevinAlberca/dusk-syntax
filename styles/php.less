@@ -1,0 +1,52 @@
+.punctuation.section.embedded.begin.php,
+.punctuation.section.embedded.end.php, {
+    color: @light-pink;
+}
+
+.source.php {
+  .function-call.php {
+      color: @light-blue;
+  }
+
+  .entity.name.function.php {
+      color: @white;
+  }
+
+  .constant {
+    color: @orange;
+
+    &.numeric {
+      color: lighten(@light-purple, 10%);
+    }
+  }
+  .variable {
+      color: @white;
+      .punctuation {
+          &.definition.variable.php {
+              color: @white;
+              &:first-child {
+                  color:@light-pink;
+              }
+          }
+      }
+      &.php,
+      &.parameter {
+          color: @white;
+      }
+
+      &.other.property {
+          color: @light-pink;
+      }
+  }
+  .special-method {
+    color: lighten(@dark-pink, 20%);
+  }
+  .symbol {
+    color: @orange;
+  }
+
+  .support.function.var,
+  .support.function.construct.output {
+      color: @light-blue;
+  }
+}
