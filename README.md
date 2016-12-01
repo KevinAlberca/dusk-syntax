@@ -1,4 +1,4 @@
-# Dusk Syntax
+# Dusk Syntax - forked and improve by AwH
 
 A dark syntax theme inspired by Xcode's Dusk theme for Atom.
 
@@ -17,7 +17,7 @@ The screenshot preview also includes the following theme and packages:
 From the command line:
 
 ```
-$ apm install dusk-syntax
+$ apm install awh_dusk-syntax
 ```
 
 Alternatively, open Atom Preferences (`cmd + ,`), select `Themes`, and search for `dusk`, then install.
