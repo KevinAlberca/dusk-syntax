@@ -3,7 +3,7 @@
   "theme": "syntax",
   "repository": "https://github.com/KevinAlberca/dusk-syntax",
   "description": "A dark syntax theme inspired by Xcode's Dusk theme for Atom.\nBased on jamesejr repository, just added some web langages",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "engines": {
     "atom": ">0.50.0"
   }
