@@ -1,6 +1,6 @@
 {
   "name": "awh_dusk_syntax",
-  "main": "index.less",
+  "theme": "syntax",
   "repository": "https://github.com/KevinAlberca/dusk-syntax",
   "description": "A dark syntax theme inspired by Xcode's Dusk theme for Atom.\nBased on jamesejr repository, just added some web langages",
   "version": "0.2.0",
