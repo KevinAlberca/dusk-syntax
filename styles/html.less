@@ -1,0 +1,41 @@
+.html {
+  .meta.tag.any {
+    color: @white;
+  }
+  .entity.name.tag {
+    &.block, &.inline, &.name {
+      color: @light-pink;
+    }
+  }
+  .entity.other.attribute-name.id.html {
+      color: @moderate-green;
+  }
+  .entity.other.attribute-name.html {
+    color: @light-blue;
+  }
+  .string.quoted.double,
+  .string.quoted.single, {
+    color: @light-red;
+    .punctuation.definition.string {
+        color: @light-red;
+      }
+      .separator.key-value.html {
+        color: @green;
+      }
+  }
+  &.text {
+    color: @white;
+  }
+}
+
+
+
+// meta tag block any html - ligne avec une div
+// punctuation definition tag begin html <- Chevron ouvrant <
+// punctuation definition tag end html <- Chevron fermant >
+
+// meta attribute-with-value id html <-  Block id
+// entity other attribute-name html <- class
+// string quoted single html,
+// string quoted double html <- Classname
+// entity name tag block any html <- tagname
