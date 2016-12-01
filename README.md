@@ -6,11 +6,11 @@ A dark syntax theme inspired by Xcode's Dusk theme for Atom.
 
 The screenshot preview also includes the following theme and packages:
 
-- [Minimap](https://atom.io/packages/minimap)
 - [File Icons](https://atom.io/packages/file-icons)
-- [Spacegray Dark](https://atom.io/themes/spacegray-dark-ui)
 
-![A preview of Dusk Syntax](https://raw.github.com/jamesejr/dusk-syntax/master/screenshots/preview.png)
+## Preview
+This is a gif with a HTML / CSS & PHP preview
+![A preview of Dusk Syntax](https://raw.github.com/jamesejr/dusk-syntax/master/screenshots/preview.gif)
 
 # Installation
 
@@ -31,3 +31,4 @@ Thanks to the following people for their hard work and contributions to the pack
 - @cannikin
 - @fundon
 - @danbrooker
+- @jamesejr for his initial package
